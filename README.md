@@ -1,5 +1,3 @@
-Voici une proposition de fichier `README.md` pour ton dépôt GitHub, qui inclut une présentation claire de ton projet ainsi que des suggestions d'illustrations. En ce qui concerne les images, je te conseille de les utiliser pour rendre le contenu plus visuel et attractif, notamment pour illustrer les différents services offerts et améliorer l'expérience utilisateur.
-
 ---
 
 # Depannageinfo06 - Votre partenaire en informatique
@@ -79,14 +77,3 @@ Les contributions sont les bienvenues ! Si vous avez des suggestions ou des idé
 Ce projet est sous licence [MIT](LICENSE). Veuillez consulter le fichier de licence pour plus de détails.
 
 ---
-
-**Remarque** : Il est toujours recommandé d'ajouter des captures d'écran ou des images pertinentes pour améliorer la lisibilité et l'engagement. Par exemple :
-- Une capture de la page d'accueil du site.
-- Des visuels pour les services proposés.
-- Des graphiques montrant les améliorations de performance après la maintenance proactive.
-
-Cela aidera à rendre ton projet plus visuel et attrayant pour les visiteurs.
-
----
-
-Si tu souhaites ajouter plus d'informations ou des fonctionnalités, fais-le moi savoir, je pourrai ajuster le contenu.
