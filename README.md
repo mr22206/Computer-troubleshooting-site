@@ -66,7 +66,7 @@ Pour toute demande de service, vous pouvez nous contacter via :
 
 ## Serveur Discord
 Rejoignez notre communauté sur Discord pour accéder à des tutoriels, des conseils et des discussions autour de l'informatique. Cliquez sur le lien ci-dessous pour nous rejoindre :
-- **Serveur Discord** : [Depannageinfo06 Discord](#) (insère ici un lien valide vers ton serveur Discord)
+- **Serveur Discord** : [Depannageinfo06 Discord](#) (https://discord.gg/zaeGWv74hB)
 
 ---
 
