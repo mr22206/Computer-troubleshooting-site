@@ -1,0 +1,326 @@
+html {
+	margin: 0%;
+	padding: 0%;
+}
+
+#navnav {
+	/* padding-left: 3.5%; */
+	display: grid;
+	grid-template-columns: repeat(6, 1fr);
+	gap: 10px;
+}
+
+#aone {
+	/* text-decoration: none; */
+	color: #fff;
+	/* font-weight: bold;
+	font-size: large; */
+}
+
+#dnav #bone_distance {
+	text-align: center;
+	display: inline-block;
+	padding: 1%;
+}
+
+#bone, #bone_distance {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	font-size: large;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: rgb(0, 0, 0);
+	font-size: 1em;
+}
+
+#bone:hover, #bone_distance:hover {
+	background-color: rgba(255, 0, 0, 1);
+}
+
+#bone:active, #bone_distance:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+	inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.h1t {
+	margin: 0%;
+	padding: 0%;
+	line-height: 180%;
+	font-size: 1.2em;
+}
+
+.td1 {
+	width: 70%;
+	height: auto;
+}
+
+.td2 {
+	width: 30%;
+	height: auto;
+}
+
+tr, td {
+	border: solid black;
+	border-left-style: none;
+	border-top-style: none;
+	padding: 10px;
+	white-space: nowrap;
+}
+
+#demande {
+	border-left: solid black;
+	border-top: solid black;
+
+	/* border: solid black; */
+	/* margin-left: auto;
+	margin-right: auto;
+	border: solid black;
+	border-right-style: none;
+	border-bottom-style: none;
+	width: 80%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+	table-layout: fixed; */
+}
+
+#demande td {
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+}
+
+body, div, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: roboto;
+	font-size: 13px;
+}
+
+#global {
+	width: 79%;
+	margin: 0 auto;
+	font-size: 25px;
+}
+
+#entete {
+	height: 150px;
+	font-size: 22px;
+	background-image: url(image/tete.png);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	font-family: algerian, 'Courier New', Courier, monospace;
+	text-align: center;
+	color: white;
+}
+
+#blocmenu {
+	height: 40px;
+	background-image: linear-gradient(black, black);
+	background-size: 100% 100%;
+	font-weight: bold;
+	color: antiquewhite;
+}
+
+#contenu {
+	padding: 10px;
+	background-color: white;
+	background-size: 100% 100%;
+}
+
+#pied {
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: small;
+	color: white;
+	background-color: black;
+}
+
+#menu li {
+	float: left;
+	list-style-type: none;
+	border: 0px solid white;
+}
+
+#menu li a, #menu li a:visited {
+	padding: 10px;
+	line-height: 40px;
+	font-size: 14px;
+	text-decoration: none;
+	color: black;
+}
+
+#menu li a:hover {
+	background-color: rgb(194, 6, 6);
+	color: brown;
+}
+
+nav {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	padding: 0%;
+	margin: 0%;
+}
+
+hr {
+	border: 2px solid red;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.img1 {
+	height: 150px;
+	width: 284px;
+}
+
+h3 {
+	text-align: center;
+}
+
+#theme li a, #theme li a:visited {
+	color: red;
+}
+
+#theme {
+	padding-left: 20px;
+	font-size: 30px;
+	float: left;
+}
+
+#contenu h1 li a, #contenu h1 li a:visited {
+	color: black;
+}
+
+#search {
+	float: right;
+	height: 36px;
+	border: 3px solid black;
+	border-radius: 40px;
+	outline: none;
+	width: 40px;
+	padding-left: 20px;
+	background: url(image/si9000.jfif) right no-repeat;
+	transition: width 2s;
+	-webkit-transition: width 2s;
+	-moz-transition: width 2s;
+	-o-transition: width 2s;
+	-ms-transition: width 2s;
+}
+
+#search:focus {
+	width: 200px;
+}
+
+#contenu video {
+	width: 50%;
+	height: 50%;
+}
+
+#gen {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0;
+	line-height: 2.5;
+	width: 20%;
+	height: 50px;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000;
+	border-radius: 10px;
+	background-color: black;
+	color: white;
+}
+
+#gen:active {
+	box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+	inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.ab {
+	font-size: large;
+	text-decoration: none;
+	color: white;
+}
+
+.navigateur {
+	display: block;
+	width: auto;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) {
+	.h1t {
+		font-size: 50%;
+	}
+	
+	.asupport1 {
+		font-size: 60%;
+	}
+
+	#blocmenu {
+		padding-bottom: 12%;
+	}
+
+	#navnav {
+		display: flex;
+		flex-direction: column;
+		/* align-items: center; */
+	}
+
+
+
+	#demande {
+		width: 95%;
+	}
+
+	.td1, .td2 {
+		display: block;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	#entete {
+		font-size: 18px;
+		height: auto;
+	}
+
+	#global {
+		width: 95%;
+	}
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:hover {
+	color: red;
+}
+
+#plink {
+	text-decoration: none;
+	color: white;
+}
+
+#plink:hover {
+	background-color: white;
+	color: black;
+}

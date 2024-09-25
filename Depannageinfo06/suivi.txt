@@ -1,0 +1,5 @@
+le contenue de chaque page 
+responsivité 
+verifier comment mettre le zone de lien sur le bouton entier en largeur et hauteur 
+formulaire de contacter 
+calendrier d'intervention et disponibilité 
