@@ -1,6 +1,6 @@
 ---
 
-[# Depannageinfo06 - Votre partenaire en informatique](https://mr22206.github.io/Computer-troubleshooting-site/)
+# [Depannageinfo06 - Votre partenaire en informatique](https://mr22206.github.io/Computer-troubleshooting-site/)
 
 Bienvenue sur le dépôt GitHub de **Depannageinfo06**, votre solution pour tous vos besoins informatiques, que ce soit à domicile ou à distance. Ce projet a pour but de fournir un service d'assistance technique, de dépannage et de formation informatique, afin de rendre le numérique accessible à tous.
 
