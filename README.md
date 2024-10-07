@@ -1,6 +1,6 @@
 ---
 
-# Depannageinfo06 - Votre partenaire en informatique
+[# Depannageinfo06 - Votre partenaire en informatique](https://mr22206.github.io/Computer-troubleshooting-site/)
 
 Bienvenue sur le dépôt GitHub de **Depannageinfo06**, votre solution pour tous vos besoins informatiques, que ce soit à domicile ou à distance. Ce projet a pour but de fournir un service d'assistance technique, de dépannage et de formation informatique, afin de rendre le numérique accessible à tous.
 
@@ -27,23 +27,28 @@ Dans un monde où la numérisation est essentielle, surtout après la crise sani
 
 ### 1. **Assistance personnalisée**
 Nous vous guidons à travers des démarches numériques complexes comme les déclarations d'impôts ou la gestion de votre carte grise.
-- 💡 **Illustration suggérée** : Une image illustrant une assistance informatique (un ordinateur avec un expert en ligne).
+
+![image](https://github.com/user-attachments/assets/70a4e067-6608-40ed-8fb3-d8e593ce3b0c)
 
 ### 2. **Dépannage général**
 Nous offrons des solutions rapides pour tout type de problème technique, qu'il soit matériel ou logiciel.
-- 💡 **Illustration suggérée** : Une image de dépannage d'un PC ou d'un appareil technologique avec un outil de réparation.
+
+![image](https://github.com/user-attachments/assets/50e29d19-3f1a-4824-a451-9aa8ccc2036e)
 
 ### 3. **Maintenance proactive**
 Pour maintenir vos systèmes à jour et éviter tout dysfonctionnement, nous proposons des services de maintenance régulière.
-- 💡 **Illustration suggérée** : Un visuel montrant des mises à jour en cours sur un ordinateur.
+
+![image](https://github.com/user-attachments/assets/0c94bca4-a943-4ac4-a178-537728f0a31c)
 
 ### 4. **Sécurité renforcée**
 Nous nous engageons à protéger vos données en mettant en place des systèmes de sécurité avancés contre les menaces en ligne.
-- 💡 **Illustration suggérée** : Une icône de bouclier de sécurité ou un écran montrant un antivirus.
+
+![image](https://github.com/user-attachments/assets/20fb9979-86df-4419-84d5-e5eef9dd3539)
 
 ### 5. **Formation personnalisée**
 Que vous soyez débutant ou avancé, nous offrons des formations adaptées pour améliorer vos compétences en informatique.
-- 💡 **Illustration suggérée** : Un formateur devant un tableau avec des cours en ligne ou une personne recevant des instructions.
+
+![image](https://github.com/user-attachments/assets/8438c4db-c5a3-4fb0-ad57-44b9a0ac6ead)
 
 ---
 
