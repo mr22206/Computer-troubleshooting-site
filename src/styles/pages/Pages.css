@@ -1,0 +1,50 @@
+.page-container {
+  min-height: calc(100vh - 150px);
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.steps {
+  background: #f8f8f8;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.steps ol {
+  padding-left: 1.5rem;
+}
+
+.note {
+  background: #fffde7;
+  padding: 1rem;
+  border-left: 4px solid #00f7ff;
+  margin: 1rem 0;
+}
+
+.tarifs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.tarif-item {
+  background: linear-gradient(145deg, #ffffff, #f5f5f5);
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.tarif-item:hover {
+  transform: translateY(-3px);
+}

@@ -1,0 +1,138 @@
+.tarifs-section {
+  padding: 2rem 0;
+}
+
+.tarifs-section h2 {
+  color: #1a1a1a;
+  margin: 2rem 0 1rem;
+  font-size: 1.8rem;
+  border-bottom: 2px solid #00f7ff;
+  padding-bottom: 0.5rem;
+}
+
+.tarifs-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.tarifs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem 0;
+}
+
+.tarif-card {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 2.5rem;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.tarif-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.tarif-card.featured {
+  border: 2px solid var(--accent);
+  background: linear-gradient(145deg, var(--bg-card), rgba(0, 210, 211, 0.1));
+}
+
+.tarif-badge {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: var(--accent);
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.tarif-header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.tarif-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.price span {
+  font-size: 1rem;
+  color: var(--text-secondary);
+}
+
+.tarif-features {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+}
+
+.tarif-features li {
+  color: var(--text-secondary);
+  padding: 0.8rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.tarif-features li:last-child {
+  border-bottom: none;
+}
+
+.info-section {
+  margin-top: 5rem;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.info-card {
+  background: var(--bg-card);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+}
+
+.info-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.info-card h4 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.info-card p {
+  color: var(--text-secondary);
+}
+
+@media (max-width: 768px) {
+  .tarifs-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
+}

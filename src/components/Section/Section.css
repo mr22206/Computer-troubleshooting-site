@@ -1,0 +1,17 @@
+.modern-section {
+  position: relative;
+  background: var(--bg-dark);
+  overflow: hidden;
+}
+
+.modern-section::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(circle, var(--primary) 0%, transparent 70%);
+  opacity: 0.1;
+  pointer-events: none;
+}

@@ -1,13 +1,41 @@
+:root {
+  --primary: #4834d4;      /* Violet profond - couleur principale */
+  --secondary: #2c2c54;    /* Bleu nuit - fond */
+  --accent: #00d2d3;       /* Cyan vif - pour les CTA */
+  --success: #2ecc71;      /* Vert - pour les validations */
+  --warning: #ff9f43;      /* Orange - pour les alertes */
+  --text-primary: #ffffff;
+  --text-secondary: #a4b0be;
+  --bg-primary: #2c2c54;
+  --bg-card: rgba(255, 255, 255, 0.05);
+  --gradient-1: linear-gradient(135deg, #4834d4, #00d2d3);
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.2);
+  --border-radius: 12px;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.main-footer {
+  background-color: var(--secondary);
+  color: var(--text-secondary);
+  padding: 2rem;
+  margin-top: auto;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
 }
