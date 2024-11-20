@@ -26,7 +26,7 @@ function Welcome() {
     <section className="hero-section">
       <div className="hero-content">
         <div className="hero-text">
-          <h1>Dépannage Informatique 06</h1>
+          <h1>Technologie, Informatique et Tutoriels</h1>
           <p className="tagline">Expert en solutions informatiques à votre service</p>
           <div className="cta-buttons">
             <button className="btn-primary" onClick={handleRemoteSupport}>

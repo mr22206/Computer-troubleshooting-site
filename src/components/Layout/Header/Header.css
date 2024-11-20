@@ -15,7 +15,7 @@
 }
 
 .header-content {
-  max-width: 1200px;
+  max-width: 1300px;
   height: 100%;
   margin: 0 auto;
   padding: 0 2rem;
@@ -38,8 +38,25 @@
 }
 
 .logo-text {
-  font-size: 1.2rem;
-  font-weight: 600;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.dot {
+  color: var(--accent);
+  margin: 0 2px;
+}
+
+/* Version avec animation */
+.dot {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
 }
 
 .nav-menu {

@@ -6,6 +6,7 @@ import Distance from './pages/Distance';
 import Domicile from './pages/Domicile';
 import Tarifs from './pages/Tarifs';
 import Support from './pages/Support';
+import Services from './pages/Services';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/distance" element={<Distance />} />
           <Route path="/domicile" element={<Domicile />} />
           <Route path="/tarifs" element={<Tarifs />} />

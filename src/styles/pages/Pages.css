@@ -1,7 +1,6 @@
 .page-container {
   min-height: calc(100vh - 150px);
-  padding: 2rem;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 

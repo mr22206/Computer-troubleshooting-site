@@ -1,42 +1,57 @@
-import '../../styles/components/Services.css';
+import '../../styles/components/Home/Services.css';
+import { Link } from 'react-router-dom';
+
 
 function Services() {
   const services = [
     {
-      title: "Assistance Personnalisée",
-      description: "Accompagnement sur-mesure pour vos démarches numériques : impôts, carte grise, compte en ligne...",
-      icon: "🎯",
+      id: "depannage-distance",
+      title: "Dépannage à Distance",
+      description: "Intervention rapide sur votre ordinateur via TeamViewer",
+      icon: "🖥️",
       color: "#4834d4"
     },
     {
-      title: "Dépannage Général",
-      description: "Résolution de problèmes Windows, déblocage FRP, maintenance matérielle et logicielle.",
-      icon: "🔧",
+      id: "intervention-domicile",
+      title: "Intervention à Domicile",
+      description: "Dépannage et maintenance sur site dans le 06",
+      icon: "🏠",
       color: "#00d2d3"
     },
     {
+      id: "formation",
       title: "Formation",
       description: "Initiations et perfectionnement en informatique, adaptés à votre niveau.",
       icon: "📚",
       color: "#0097e6"
     },
     {
+      id: "securite",
       title: "Sécurité",
       description: "Protection antivirus, sauvegardes, sécurisation de vos données et appareils.",
       icon: "🔒",
       color: "#44bd32"
     },
     {
+      id: "optimisation",
       title: "Optimisation",
       description: "Amélioration des performances de vos appareils, nettoyage et mise à jour.",
       icon: "⚡",
       color: "#f0932b"
     },
     {
+      id: "support-distance",
       title: "Support à Distance",
       description: "Intervention rapide via TeamViewer, disponible 7j/7 selon vos besoins.",
       icon: "🌐",
       color: "#833471"
+    },
+    {
+      id: "creation-sites",
+      title: "Création de Sites Web",
+      description: "Sites vitrines, e-commerce et applications web sur mesure pour votre activité",
+      icon: "🌐",
+      color: "#2d98da"
     }
   ];
 
@@ -56,7 +71,7 @@ function Services() {
             <h3>{service.title}</h3>
             <p>{service.description}</p>
             <div className="card-footer">
-              <button className="learn-more">En savoir plus</button>
+              <Link to={`/services#${service.id}`} className="learn-more">En savoir plus</Link>
             </div>
           </div>
         ))}

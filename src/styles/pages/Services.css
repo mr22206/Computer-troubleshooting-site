@@ -1,0 +1,144 @@
+.page-container {
+  min-height: calc(100vh - 150px);
+  padding: 2rem;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 3rem auto;
+  max-width: 1300px;
+  justify-content: center;
+}
+
+.service-card {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--card-color);
+}
+
+.service-icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background: var(--bg-card);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  border: 2px solid var(--card-color);
+}
+
+.service-icon {
+  font-size: 2rem;
+}
+
+.details-section {
+  margin: 2rem 0;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+}
+
+.service-features li {
+  color: var(--text-secondary);
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.learn-more {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid var(--card-color);
+  border-radius: var(--border-radius);
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.learn-more:hover {
+  background: var(--card-color);
+  transform: translateY(-2px);
+}
+
+@media (min-width: 1300px) {
+  .services-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 992px) {
+  .services-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .services-grid {
+    grid-template-columns: 1fr;
+    padding: 0 1rem;
+  }
+}
+
+.services-detailed {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.service-block {
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border-radius: 8px;
+  background: var(--bg-card);
+  scroll-margin-top: 80px;
+}
+
+.service-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.service-icon {
+  font-size: 2rem;
+}
+
+.service-details ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+.service-details li {
+  margin: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.service-details li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+}

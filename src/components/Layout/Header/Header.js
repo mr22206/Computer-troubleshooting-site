@@ -36,7 +36,7 @@ function Header() {
         <div className="header-content">
           <Link to="/" className="logo" onClick={() => setIsMenuOpen(false)}>
             <span className="logo-icon">🔧</span>
-            <span className="logo-text">Tech Info Tuto</span>
+            <span className="logo-text">TECH<span className="dot">.</span>INFO<span className="dot">.</span>TUTO</span>
           </Link>
 
           <button 
@@ -51,8 +51,9 @@ function Header() {
 
           <nav className={`nav-menu ${isMenuOpen ? 'active' : ''}`}>
             <Link to="/" className="nav-link">Accueil</Link>
-            <Link to="/distance" className="nav-link">À Distance</Link>
-            <Link to="/domicile" className="nav-link">À Domicile</Link>
+            <Link to="/services" className="nav-link">Services</Link>
+            <Link to="/distance" className="nav-link service-link">À Distance</Link>
+            <Link to="/domicile" className="nav-link service-link">À Domicile</Link>
             <Link to="/tarifs" className="nav-link">Tarifs</Link>
             <Link to="/support" className="nav-link">Contact</Link>
             
