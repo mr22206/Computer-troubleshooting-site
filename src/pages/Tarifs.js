@@ -69,6 +69,11 @@ function Tarifs() {
               <h4>Devis</h4>
               <p>Gratuit sur demande</p>
             </div>
+            <div className="info-card">
+              <span className="info-icon">🚗</span>
+              <h4>Frais de déplacement</h4>
+              <p>30€ dans un rayon de 40km</p>
+            </div>
           </div>
         </div>
       </div>
