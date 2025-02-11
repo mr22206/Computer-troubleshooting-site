@@ -15,6 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       CI: false
+      VERCEL_IGNORE: true
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
