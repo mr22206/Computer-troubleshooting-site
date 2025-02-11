@@ -1,3 +1,52 @@
-# https://www.robotstxt.org/robotstxt.html
+# Configuration du robots.txt pour Tech Info Tuto
+# https://techinfotuto.com
+
+# Règles globales pour tous les robots
 User-agent: *
-Disallow:
+Allow: /
+Allow: /services
+Allow: /distance
+Allow: /domicile
+Allow: /tarifs
+Allow: /support
+
+# Règles spécifiques pour GoogleBot
+User-agent: Googlebot
+Crawl-delay: 1
+
+# Règles spécifiques pour Bingbot
+User-agent: Bingbot
+Crawl-delay: 2
+
+# Sitemap
+Sitemap: https://mr22206.github.io/Computer-troubleshooting-site/sitemap.xml
+
+# Ressources à ne pas indexer
+Disallow: /build/
+Disallow: /static/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*?*
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /.github/
+
+# Protection des assets
+Disallow: /assets/admin/
+Disallow: /assets/private/
+
+# Interdire l'indexation des pages d'erreur
+Disallow: /404
+Disallow: /error
+Disallow: /500
+
+# Interdire l'indexation des fichiers temporaires et de développement
+Disallow: /*.tmp$
+Disallow: /*.temp$
+Disallow: /*.json$
+Disallow: /*.map$
+Disallow: /*.md$
+Disallow: /*.log$
+
+# Autoriser explicitement les URLs avec hash
+Allow: /*#/

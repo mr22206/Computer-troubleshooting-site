@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Computer-troubleshooting-site/static/css/main.b4ffbe06.css",
-    "main.js": "/Computer-troubleshooting-site/static/js/main.c75385d9.js",
+    "main.css": "/Computer-troubleshooting-site/static/css/main.5355c2d6.css",
+    "main.js": "/Computer-troubleshooting-site/static/js/main.73af4d34.js",
     "static/js/453.1453e21e.chunk.js": "/Computer-troubleshooting-site/static/js/453.1453e21e.chunk.js",
     "index.html": "/Computer-troubleshooting-site/index.html",
-    "main.b4ffbe06.css.map": "/Computer-troubleshooting-site/static/css/main.b4ffbe06.css.map",
-    "main.c75385d9.js.map": "/Computer-troubleshooting-site/static/js/main.c75385d9.js.map",
+    "main.5355c2d6.css.map": "/Computer-troubleshooting-site/static/css/main.5355c2d6.css.map",
+    "main.73af4d34.js.map": "/Computer-troubleshooting-site/static/js/main.73af4d34.js.map",
     "453.1453e21e.chunk.js.map": "/Computer-troubleshooting-site/static/js/453.1453e21e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4ffbe06.css",
-    "static/js/main.c75385d9.js"
+    "static/css/main.5355c2d6.css",
+    "static/js/main.73af4d34.js"
   ]
 }
