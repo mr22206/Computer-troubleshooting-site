@@ -47,3 +47,6 @@ Disallow: /*.json$
 Disallow: /*.map$
 Disallow: /*.md$
 Disallow: /*.log$
+
+# Autoriser explicitement les URLs avec hash
+Allow: /*#/
