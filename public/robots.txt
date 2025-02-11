@@ -1,3 +1,41 @@
-# https://www.robotstxt.org/robotstxt.html
+# Configuration du robots.txt pour Tech Info Tuto
+# https://techinfotuto.com
+
 User-agent: *
-Disallow:
+Allow: /
+Allow: /services
+Allow: /distance
+Allow: /domicile
+Allow: /tarifs
+Allow: /support
+
+# Optimisation du crawl
+Crawl-delay: 1
+
+# Sitemap
+Sitemap: https://mr22206.github.io/Computer-troubleshooting-site/sitemap.xml
+
+# Ressources à ne pas indexer
+Disallow: /build/
+Disallow: /static/
+Disallow: /*.js$
+Disallow: /*.css$
+Disallow: /*?*
+Disallow: /node_modules/
+
+# Protection des assets
+Disallow: /assets/admin/
+Disallow: /assets/private/
+
+# Interdire l'indexation des pages d'erreur
+Disallow: /404
+Disallow: /error
+
+# Interdire l'indexation des fichiers temporaires
+Disallow: /*.tmp$
+Disallow: /*.temp$
+
+# Interdire l'indexation des fichiers de développement
+Disallow: /*.json$
+Disallow: /*.map$
+Disallow: /*.md$
