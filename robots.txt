@@ -1,4 +1,4 @@
-# Configuration du robots.txt pour Tech Info Tuto
+# Configuration du robots.txt
 # https://tech-info-tuto.vercel.app
 
 # Règles globales pour tous les robots
