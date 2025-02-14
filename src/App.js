@@ -10,7 +10,7 @@ import Services from './pages/Services';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Computer-troubleshooting-site">
       <div className="App">
         <Header />
         <Routes>
