@@ -15,7 +15,7 @@ User-agent: Bingbot
 Crawl-delay: 2
 
 # Sitemap correct
-Sitemap: https://tech-info-tuto.vercel.app/sitemap.xml
+Sitemap: https://mr22206.github.io/Computer-troubleshooting-site/sitemap.xml
 
 # Ressources à ne pas indexer
 Disallow: /build/
