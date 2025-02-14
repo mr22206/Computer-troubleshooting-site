@@ -39,6 +39,13 @@
     {
       "src": "/(.*)",
       "dest": "/index.html"
+    },
+    {
+      "src": "/googlec86efcc402945178.html",
+      "headers": {
+        "Content-Type": "text/html"
+      },
+      "dest": "/googlec86efcc402945178.html"
     }
   ],
   "github": {
