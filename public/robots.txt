@@ -1,5 +1,5 @@
 # Configuration du robots.txt pour Tech Info Tuto
-# https://techinfotuto.com
+# https://tech-info-tuto.vercel.app
 
 # Règles globales pour tous les robots
 User-agent: *
@@ -10,23 +10,16 @@ Allow: /domicile
 Allow: /tarifs
 Allow: /support
 
-# Règles spécifiques pour GoogleBot
-User-agent: Googlebot
-Crawl-delay: 1
-
 # Règles spécifiques pour Bingbot
 User-agent: Bingbot
 Crawl-delay: 2
 
-# Sitemap
+# Sitemap correct
 Sitemap: https://tech-info-tuto.vercel.app/sitemap.xml
 
 # Ressources à ne pas indexer
 Disallow: /build/
 Disallow: /static/
-Disallow: /*.js$
-Disallow: /*.css$
-Disallow: /*?*
 Disallow: /node_modules/
 Disallow: /.git/
 Disallow: /.github/
