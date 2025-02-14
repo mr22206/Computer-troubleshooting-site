@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Computer-troubleshooting-site/static/css/main.5355c2d6.css",
-    "main.js": "/Computer-troubleshooting-site/static/js/main.37b46583.js",
+    "main.js": "/Computer-troubleshooting-site/static/js/main.a21624cf.js",
     "static/js/453.1453e21e.chunk.js": "/Computer-troubleshooting-site/static/js/453.1453e21e.chunk.js",
     "index.html": "/Computer-troubleshooting-site/index.html",
     "main.5355c2d6.css.map": "/Computer-troubleshooting-site/static/css/main.5355c2d6.css.map",
-    "main.37b46583.js.map": "/Computer-troubleshooting-site/static/js/main.37b46583.js.map",
+    "main.a21624cf.js.map": "/Computer-troubleshooting-site/static/js/main.a21624cf.js.map",
     "453.1453e21e.chunk.js.map": "/Computer-troubleshooting-site/static/js/453.1453e21e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5355c2d6.css",
-    "static/js/main.37b46583.js"
+    "static/js/main.a21624cf.js"
   ]
 }
