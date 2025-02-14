@@ -11,6 +11,20 @@
   ],
   "routes": [
     {
+      "src": "/sitemap.xml",
+      "headers": {
+        "Content-Type": "application/xml"
+      },
+      "dest": "/sitemap.xml"
+    },
+    {
+      "src": "/robots.txt",
+      "headers": {
+        "Content-Type": "text/plain"
+      },
+      "dest": "/robots.txt"
+    },
+    {
       "src": "/static/(.*)",
       "dest": "/static/$1"
     },
@@ -21,14 +35,6 @@
     {
       "src": "/manifest.json",
       "dest": "/manifest.json"
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    },
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
     },
     {
       "src": "/(.*)",
