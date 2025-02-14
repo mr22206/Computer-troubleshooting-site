@@ -19,8 +19,9 @@
     "predeploy": "npm run build:github",
     "deploy": "gh-pages -d build",
     "build:github": "env-cmd -f .env.github react-scripts build",
+    "build:vercel": "env-cmd -f .env.vercel react-scripts build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "env-cmd -f .env.vercel react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

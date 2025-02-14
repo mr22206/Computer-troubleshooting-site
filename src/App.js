@@ -9,8 +9,10 @@ import Support from './pages/Support';
 import Services from './pages/Services';
 
 function App() {
+  const basePath = process.env.REACT_APP_BASE_PATH || '';
+  
   return (
-    <Router basename="/Computer-troubleshooting-site">
+    <Router basename={basePath}>
       <div className="App">
         <Header />
         <Routes>
