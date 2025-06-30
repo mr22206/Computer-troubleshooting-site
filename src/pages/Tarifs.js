@@ -15,7 +15,7 @@ function Tarifs() {
               <span className="tarif-icon">⚡</span>
               <h3>Intervention Ponctuelle</h3>
             </div>
-            <div className="price">45€<span>/heure</span></div>
+            <div className="price">60€<span>/heure</span></div>
             <ul className="tarif-features">
               <li>Diagnostic complet</li>
               <li>Dépannage sur place</li>
@@ -29,7 +29,7 @@ function Tarifs() {
               <span className="tarif-icon">🔄</span>
               <h3>Maintenance Mensuelle</h3>
             </div>
-            <div className="price">60€<span>/mois</span></div>
+            <div className="price">150€<span>/mois</span></div>
             <ul className="tarif-features">
               <li>Maintenance préventive</li>
               <li>Support prioritaire</li>
