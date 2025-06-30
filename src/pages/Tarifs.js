@@ -72,7 +72,7 @@ function Tarifs() {
             <div className="info-card">
               <span className="info-icon">🚗</span>
               <h4>Frais de déplacement</h4>
-              <p>30€ dans un rayon de 40km</p>
+              <p>40€ dans un rayon de 40km</p>
             </div>
           </div>
         </div>
